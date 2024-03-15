@@ -1,0 +1,93 @@
+{
+  "viewingHint" : "paged",
+  "attribution" : "e-manuscripta.ch, the digital platform for manuscript material from Swiss libraries and archives",
+  "service" : [ ],
+  "license" : "https://creativecommons.org/publicdomain/mark/1.0/deed.de",
+  "structures" : [ ],
+  "sequences" : [ {
+    "canvases" : [ {
+      "height" : 10610,
+      "width" : 14148,
+      "images" : [ {
+        "resource" : {
+          "service" : {
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://www.e-manuscripta.ch/i3f/v20/2356505"
+          },
+          "format" : "image/jpeg",
+          "height" : 749,
+          "width" : 1000,
+          "@id" : "https://www.e-manuscripta.ch/download/webcache/1000/2356505",
+          "@type" : "dctypes:Image"
+        },
+        "on" : "https://www.e-manuscripta.ch/i3f/v20/2356504/canvas/2356505",
+        "motivation" : "sc:painting",
+        "@id" : "https://www.e-manuscripta.ch/i3f/v20/2356504/annotation/2356505",
+        "@type" : "oa:Annotation"
+      } ],
+      "label" : "[1]",
+      "@id" : "https://www.e-manuscripta.ch/i3f/v20/2356504/canvas/2356505",
+      "@type" : "sc:Canvas"
+    } ],
+    "viewingHint" : "paged",
+    "startCanvas" : "https://www.e-manuscripta.ch/i3f/v20/2356504/canvas/2356505",
+    "viewingDirection" : "left-to-right",
+    "label" : "Current Page Order",
+    "@context" : "http://iiif.io/api/presentation/2/context.json",
+    "@id" : "https://www.e-manuscripta.ch/i3f/v20/2356504/sequence/normal",
+    "@type" : "sc:Sequence"
+  } ],
+  "label" : "Kun yu tu",
+  "thumbnail" : {
+    "width" : 304,
+    "height" : 227,
+    "@id" : "https://www.e-manuscripta.ch/i3f/v21/2356505/full/304/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg"
+  },
+  "logo" : {
+    "@id" : "https://www.e-manuscripta.ch/domainimage/logo.svg",
+    "service" : {
+      "profile" : "http://iiif.io/api/image/2/level2.json",
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.zb.uzh.ch"
+    }
+  },
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "metadata" : [ {
+    "value" : "Kun yu tu",
+    "label" : "Titel"
+  }, {
+    "value" : "[Entstehungsort nicht ermittelbar], [zwischen 1750 und 1800?]",
+    "label" : "Entstehung"
+  }, {
+    "value" : "1 Karte : Tusche, Aquarell und Gouache auf Seide ; Durchmesser linke Hemisphäre 135 cm, rechte Hemisphäre 136 cm, auf Blatt 217 x 314 cm",
+    "label" : "Umfang"
+  }, {
+    "value" : "Chinesisch",
+    "label" : "Sprache"
+  }, {
+    "value" : "circa 1:15 000 000 (W 180°-E 180°/N 90°-S 90°)",
+    "label" : "Mathematische Daten"
+  }, {
+    "value" : "Zentralbibliothek Zürich, Wak 342",
+    "label" : "Besitzende Institution"
+  }, {
+    "value" : "12.8.2019",
+    "label" : "Online seit"
+  }, {
+    "value" : "Erde",
+    "label" : "Schlagwort"
+  }, {
+    "value" : "https://doi.org/10.7891/e-manuscripta-83669",
+    "label" : "DOI"
+  } ],
+  "@id" : "https://ofrainandotherthings.github.io/IIIF-test/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "seeAlso" : {
+    "format" : "application/xml",
+    "@id" : "https://www.e-manuscripta.ch/oai?verb=GetRecord&metadataPrefix=mets&identifier=2356504",
+    "label" : "METS"
+  }
+}
