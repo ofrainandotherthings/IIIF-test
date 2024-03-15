@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ofrainandotherthings.github.io/IIIF-test/manifests/manifest.json",
     "label" : "Kun yu tu"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ofrainandotherthings.github.io/IIIF-test/manifests/Untitled-1.json",
+    "label" : "Kun yu tu"
   } ]
 }
